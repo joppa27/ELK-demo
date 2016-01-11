@@ -11,11 +11,11 @@ If you're running Windows/OSX install [docker toolbox](https://www.docker.com/do
 ## Run Demo
 with docker & docker-compose installed & configured you have everything you need to run this demo.
 
-after the project is cloned, navigate to the project root directory in the terminal and type the following command
+open the terminal, navigate to the project root directory & type
 
 `docker-compose up`
 
-with the ip of your docker-machine(example 192.168.99.100)
-access kibana @ `http://192.168.99.100:5601`
+once all the containers have started access kibana with the ip of your docker-machine(example 192.168.99.100)
+@ `http://192.168.99.100:5601`
 
 enjoy!
