@@ -1,7 +1,7 @@
 # elk-demo
 
 This is a demo of Elasticsearch, Logstash & Kibana working in perfect harmony!
-It's based on this blog post by @chrtze: [Visualizing Datasets with ELK] (http://blog.webkid.io/visualize-datasets-with-elk/)
+It's based on this blog post: [Visualizing Datasets with ELK] (http://blog.webkid.io/visualize-datasets-with-elk/)
 
 ## PRE-REQS
 1. docker & docker-compose
