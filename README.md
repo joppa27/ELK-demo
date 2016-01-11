@@ -15,7 +15,7 @@ open the terminal, navigate to the project root directory & type
 
 `docker-compose up`
 
-once all the containers have started access kibana with the ip of your docker-machine(example 192.168.99.100)
+once all the containers have started, access kibana with the ip of your docker-machine(example 192.168.99.100)
 @ `http://192.168.99.100:5601`
 
 enjoy!
