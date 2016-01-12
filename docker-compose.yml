@@ -3,12 +3,10 @@ elasticsearch:
     ports: 
         - "9200:9200"
 
-logstash:
-    image: logstash:latest
+win-logstash:
+    build: .
     links: 
         - elasticsearch
-    volumes:
-        - ./logstash:/config-dir/
     ports:
         - "5000:5000"
     command: logstash -f /config-dir/logstash.conf
